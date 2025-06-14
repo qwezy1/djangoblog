@@ -3,30 +3,30 @@
 ## Установка
 
 1. Клонировать репозиторий:
-
+```bash
 git clone <репозиторий>
-
+```
 
 2. Создать и активировать виртуальное окружение:
-
+```bash
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 3. Установить зависимости:
-
+```bash
 pip install -r requirements.txt
-
+```
 
 4. Выполнить миграции базы данных:
-
+```bash
 python manage.py migrate
-
+```
 
 5. Запустить сервер разработки:
-
+```bash
 python manage.py runserver
-
+```
 
 ## Запуск
 
